@@ -30,9 +30,9 @@ Copy this string because you will need to paste it later in the script
 
 IAM Role/Permissions: Ensure the user or role running the script has the following permissions:
 
-S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
-Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable
-Athena: athena:StartQueryExecution, athena:GetQueryResults
+S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket..
+Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable..
+Athena: athena:StartQueryExecution, athena:GetQueryResults..
 
 # START HERE 
 # Step 1: Open CloudShell Console
