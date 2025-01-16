@@ -77,9 +77,14 @@ NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
 # Step 4: Run the script
 1. In the CLI type
 ```bash
-pip install python-dotenv
 python3 setup_nba_data_lake.py
 ```
+
+if you get an error loading the dotenv module, run the command below and try again.
+```bash
+pip install python-dotenv
+```
+
 -You should see the resources were successfully created, the sample data was uploaded successfully and the Data Lake Setup Completed
 
 # Step 5: Manually Check For The Resources
